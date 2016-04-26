@@ -36,6 +36,8 @@
   color:black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'dejavu_serifbook';
+  font-weight:bold;
 }
 
 header {
@@ -44,4 +46,13 @@ header {
 
 hr {
   clear:both;
+}
+
+h1 {
+  font-family: 'dejavu_serifbook';
+  font-size:40px;
+}
+
+h2 {
+  font-family: 'dejavu_serifitalic';
 }
