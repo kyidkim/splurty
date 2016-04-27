@@ -35,7 +35,6 @@
 .links a {
   color:black;
   font-size: 25px;
-  border-bottom: 1px solid #dfdfdf;
   font-family: 'dejavu_serifbook';
   font-weight:bold;
 }
@@ -55,6 +54,11 @@ h1 {
 
 h2 {
   font-family: 'dejavu_serifitalic';
+}
+
+h2 span {
+  font-family: 'dejavu_serifbook';
+  color: #a2a2a2
 }
 
 .next-quote {
@@ -77,3 +81,18 @@ h2 {
 .about {
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
 }
+
+.modal {
+    font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+}
+
+::selection {
+  background-color: #f84342
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: center;
+  }
+}
+
